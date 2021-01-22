@@ -1,2 +1,6 @@
-SQLite version 3.32.3 2020-06-18 14:16:19
-Enter ".help" for usage hints.
+CREATE TABLE person (
+    id INTEGER PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    age INTEGER
+);
