@@ -14,4 +14,4 @@ SELECT * FROM person WHERE age > 35;
 
 SELECT * FROM pet WHERE name = 'Gigantor' AND age = 1;
 
-SELECT * FROM pet WHERE name = 'Fluffy' AND 'Gigantor' OR age > 0;
+SELECT * FROM pet WHERE name = 'Fluffy' AND 'Gigantor' OR age != 100;
