@@ -5,7 +5,7 @@ ALTER TABLE person ADD COLUMN dead INTEGER;
 ALTER TABLE person ADD COLUMN phone_number INTEGER;
 
 /* Add a salary column to person that is float. */
-ALTER TABLE person ADD COLUMN phone_number FLOAT;
+ALTER TABLE person ADD COLUMN salary FLOAT;
 
 /* Add a dob column to both person and pet that is a DATETIME. */
 ALTER TABLE person ADD COLUMN dob DATETIME;
