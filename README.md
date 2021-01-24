@@ -113,3 +113,7 @@ I learned how to change data by using `UPDATE`.
 I learned how to update data on a table by joining multiple tables where the data lives on another table.
 
 For this exercise, I needed to rename the pets where owner's name was Zed. In order to do that, I had to join the three tables and have the `WHERE` clause be Zed. Since both pets are owned by Zed, their names should now be Zed's Pet
+
+## Exercise 11
+
+I learned how to override existing data with the `REPLACE` clause.
