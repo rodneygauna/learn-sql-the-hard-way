@@ -64,3 +64,42 @@ In order to read the values in the tables, I learned about 'SELECT'.
 `SELECT * FROM person WHERE first_name != 'Zed';` means "select all columns from the person table and return the rows that have DO NOT have 'Zed' as a value in the 'first_name' column".
 
 FYI - continued running the script on ex3.db
+
+## Exercise 6
+
+Started learning how to join many tables.
+
+The first select statment is an equality statement - meaning I'm joining the three tables by setting different id columns as equals.
+
+The second select statement does the same thing as the first but it's making the pet table the "master select" becuase I used the IN to start a sub-select to get the pet.id values.
+
+Breaking down the statements:
+
+ex6.sql:2 - get all the id, name, age, and dead columms
+ex6.sql:3 - from the pet table and also get the person_pet and person tables
+ex6.sql:5 - the id from the pet table is the pet_id from the person_pet talble
+ex6.sql:6 - the person_id from the person_pet table is the id from the person table
+
+ex6.sql:10 - get all the ids, names, ages, and deads columns
+ex6.sql:11 - from the pet table
+ex6.sql:12 - where the id in the pet table is
+ex6.sql:14 - the pet_id from the person_pet table and get the person table because
+ex6.sql:15 - person_id from the person_pet table is the id in the person table
+
+I then ran the terminal command to create the ex6 database and ran the ex2, ex3, and ex4 scripts to load all the data in the table.
+
+Also, by adding the -column and -header (like -echo) as part of the commmand, sqlite takes the column name and uses it as the headers for the output.
+
+## Exercise 7
+
+Here I learned about delete by using `DELETE FROM`.
+
+### Study Drills
+
+I created the code.sql file that will drop all the tables, recreate the tables, and re-add the old data. This will allow to only have to run 1 script instead of 4.
+
+## Exercise 8
+
+I learned how to delete data from a table by using a join and how to use the `NOT IN` to remove the abandoned pets.
+
+I also learned a terminal command that concatinates my sql files into one file using `cat ex2.sql ex3.sql ex4.sql ex7.sql > catcode.sql`.
