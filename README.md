@@ -103,3 +103,7 @@ I created the code.sql file that will drop all the tables, recreate the tables, 
 I learned how to delete data from a table by using a join and how to use the `NOT IN` to remove the abandoned pets.
 
 I also learned a terminal command that concatinates my sql files into one file using `cat ex2.sql ex3.sql ex4.sql ex7.sql > catcode.sql`.
+
+## Exercise 9
+
+I learned how to change data by using `UPDATE`.
