@@ -117,3 +117,11 @@ For this exercise, I needed to rename the pets where owner's name was Zed. In or
 ## Exercise 11
 
 I learned how to override existing data with the `REPLACE` clause.
+
+## Exercise 12
+
+I learned about changing a table's name with `ALTER TABLE tablename RENAME TO newtablename`.
+
+I also learned about how to add a column with `ALTER TABLE table ADD COLUMN columnname type`.
+
+There is also a sqlite class called `.schema` that will show me what makes up a table.
